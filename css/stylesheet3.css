@@ -1,0 +1,1139 @@
+
+
+#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 15%;
+margin: auto;
+padding: 4%;}
+
+.breath{padding-left: 8px;
+padding-right: 8px;}
+
+.leftcap{
+	padding-top: 6px;
+}
+
+/* Top and grid*/
+body{padding: 0;
+margin: 0;
+}
+
+/*Slide show of iamge */
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/* End Slide show*/
+
+
+
+/* image grid */
+
+
+.rowi{
+	text-align: center;
+	margin: 0;
+	box-sizing: border-box;
+	display:  -ms-flexbos; /* IE10*/
+	display: flex;
+	-ms-flex-wrap:  wrap; /*IE10 */
+	flex-wrap:  wrap;
+	padding:  0 4px;}
+
+
+
+/* Create forumn equal columns that sits next to each other */
+.columni {
+	box-sizing: border-box;
+	-ms-flex: 20%; /* IE10 */
+	flex: 20%;
+	max-width: 20%;
+	padding: 0 4px;
+}
+
+.columni img {
+	margin-top: 8px;
+	vertical-align:  middle;
+	width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px){
+	.columni {
+		-ms-flex: 50%;
+		flex;50%;
+		max-width: 50%;
+	}
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:  600px){
+	.columni{
+		-ms-flex:  100%;
+		flex: 100%;
+		max-width:  100%;
+	}
+}
+
+
+/* End of photo grid */
+
+
+
+
+
+
+
+
+
+
+
+
+/*hiding panel*/
+	#myDIV{
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+		background-color: none;
+		margin-top: 0px;
+	}
+	.si1{width: auto;
+		height: 150px;
+		padding: 0px 3px 0px 3px;}
+
+
+	.products{
+	text-align: center;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-family: Heveltica, sans-serif;
+    font-weight: 600;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor:  -webkit-grab;;
+    box-sizing: border-box;
+    background-color: #276B87;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 0.5px;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+#containers{position: relative;
+width: 55%;
+margin: auto;
+top: -3.4em;}
+
+
+
+
+#maillink{font-family: ubuntu,sans-serif;
+font-size: 43px;}
+
+/* image div display side by sie and center */
+.grid-container{
+	margin: auto;
+	width: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+section#bnone{display: block;
+text-align: center;
+background-color: none;
+padding-top: 20px;}
+
+#bsec{background-color: white;}
+
+
+
+.logos{
+	text-align: center;
+	position: relative;
+	width: 47px;
+	height: auto;
+	margin-top: 10px;
+	margin: auto;
+}
+
+img.handy{width: 170px;
+height: auto;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 600px;
+}
+
+/* Water Taps details */
+#container {
+	display: block;
+	width: 800px;
+	padding: 10px 10px;
+	margin: auto;
+	display: block;
+	height: auto;
+}
+
+
+
+
+#bcolor{text-align: center;
+padding: 20px 10px 10px 10px;}
+
+.tb{font-family: Ubuntu,sans-serif;
+	letter-spacing: 1px;
+font-size: 46px;
+font-weight: 400;
+color: white;}
+
+span.tb{line-height: 1em;}
+
+span.ts{
+	margin-top: -3em;
+}
+
+.ts{display: block;
+	letter-spacing: 1px;
+	font-family: Ubuntu,sans-serif;
+	font-size: 16px;
+margin: 2px;}
+
+.textbe{
+	padding-top: 1px;}
+
+.black{
+	background-color:#9cbdac;
+}
+
+
+span.sb{display: block;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+body {font-family: Ubuntu,helvetica, sans-serif;
+		font-size: 14pt;
+		line-height: 19pt;
+		margin: 0;
+		background-color: #E8F6F3;
+	}
+
+.icon {width: 7%;
+margin: 8px;}	
+
+.b{font-weight: 700;}
+
+h1{font-family: helvetica, sans-serif;
+	text-decoration-line: orange;
+font-weight: bold;
+font-size: 4em;
+color: #642315;
+text-align: center; /* make test align center*/
+display: block;
+padding: 0px 8px 20px 8px;
+letter-spacing: 0.3px;
+width: 100%;
+line-height: 0.7em;
+margin-top: 8px;
+margin: auto; /*make text box center*/
+margin-bottom: 20px;}
+
+.h1s{font-size: 36px;
+}
+
+/*Changesinktaps h1 color*/
+
+body h1#h1c{line-height:40pt ;}
+
+h1#h1c{font-family: helvetica, sans-serif;
+	text-decoration-line: orange;
+font-weight: bold;
+font-size: 4em;
+color: #642315;
+text-align: center; /* make test align center*/
+display: block;
+padding: 20px 8px 20px 8px;
+letter-spacing: 0.3px;
+width: 100%;
+margin-top: 40px;
+margin: auto; /*make text box center*/
+margin-bottom: 3px;}
+
+.yellowf{
+	margin: 0;
+	padding:0;
+	background-color:#ECC15B;
+}
+
+
+
+img {pointer-events: none;} /* prevent user to save image */
+
+footer{
+	background-color: white;
+	margin-left: auto;
+	Margin-right: auto;
+	text-align:  center;
+	font-size:  11px;
+}
+
+div.fticon{
+	margin-top: 3px;
+	padding-top: 20px;
+}
+
+/*hide and show content in different device*/
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+
+
+/* navigator bar */
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #1d1f1d;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: #0AAAAA;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  color: black;
+}
+
+#hamburger-icon {
+	position: fixed;
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+  z-index:1000; /*make navbuttton above */
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #headnav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
+
+/* testimonial*/
+
+
+
+
+h2{font-family: Lora-Bold,times New Roman, serif;
+	font-size: 15px;
+font-weight: bolder;}
+
+h3{font-family: Lora,times New Roman, serif;
+	letter-spacing: 0.4px;
+	position: relative;
+	top: -10px;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 24px;
+font-weight: 400;
+text-align: center;}
+
+.rev{
+	font-family: lora,times New Roman, serif;
+	font-size: 17px;
+}
+
+.peop {width: 40px;}
+
+#containerrev{Display: block;
+	padding:  15px 15px;
+	width: 55%;
+margin: auto;}
+
+#star{display: block;
+	width: 8%;}
+
+section{
+	
+	padding: 10px 40px;
+border-width: thin;
+margin: 8px;
+}
+
+/*contact us*/
+
+*html, body{
+	margin: 0;
+	padding: 0;
+	overflow-x: :hidden;
+}
+
+#callus{display: block;
+padding: 10px 0px;
+width: 100%;
+background-color: black;
+margin: auto;}
+
+.con{font-family: ubuntu, helvetica, sans-serif;
+text-align: center;
+color: #B1C1C1;
+letter-spacing: 1px;}
+
+.sm{
+	font-size: 13px;
+}
+
+
+  /* Needed to position the navbar */
+
+
+
+
+
+
+
+
+span.boldp {
+	font-weight: bolder;
+}
+
+figure {display: block;
+text-align: center;
+padding-top: 10px;
+padding-bottom: :10px;
+margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0x;
+    margin-inline-end: 0;}
+
+figcaption {
+	font-family:Ubuntu-light,heveltica, sans-serif ;
+	font-size: 13pt;
+color: #683428;
+line-height: 11px;
+padding-bottom: 18px;}
+
+
+#changer {width: 50%;
+}
+
+.left2 {display: block;
+margin: auto;
+width: 500px;}
+
+.left {display: block;
+margin: auto;
+width: 400px;}
+
+/* link*/
+
+
+a{text-decoration: none;
+color:#a43627;}
+a:hover{color: #32201e;}
+
+a#ligther:link{
+	color:#0AAAAA ;
+}
+
+a#ligther:hover{
+	color: yellow;
+}
+
+#lock{display: block;
+	position: relative;
+	top: -50px;
+	margin: auto;
+	text-align: center;}
+
+
+section.bottoml{Display: block;
+	top: -60px;
+	margin-top: 0;
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
+.responsive{
+	width: 80%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 2000px) and (max-width: 3400px) {
+
+
+
+/*hide and show content in different device*/
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+#content-hide {display: none;}
+
+
+section#bnone{display: block;
+text-align: center;
+background-color: none;
+padding-top: 40px;}
+
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 1100px;
+	height: 490px;
+}
+
+span.ts{
+	margin-top: -1em;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+	#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 23%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 12%;}
+
+	#changer {width: 70%;
+}
+
+
+.left, .left2{display: block;
+margin: auto;
+width: 30%;}
+}
+
+.back{padding-top: 40px;
+	padding-bottom: 40px;
+}
+  
+span.ts{
+	margin-top: -1em;
+}
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+#content-hide {display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 1100px;
+	height: 430px;
+}
+
+h3{position: relative;
+	text-align: center;
+	align-content: center;
+	kerning: 0;
+	top:-1em;
+	font-size: 20px;
+line-height: 21.5px;
+padding-bottom: 20px;}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 800px) and (max-width: 991px) {
+
+
+
+/*reponsive Feature*/
+
+.logo{width: 23px;}
+
+H1{position: relative;
+	margin: auto;
+	font-size: 3.6em;
+line-height: 0.8em;
+align-content: center;
+text-align: center;}
+
+h3{position: relative;
+	text-align: center;
+	align-content: center;
+	kerning: 0;
+	top:-1em;
+	font-size: 20px;
+line-height: 21.5px;
+padding-bottom: 20px;}
+
+#lock{
+	width: 100%;
+}
+
+
+
+	#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 12%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 13%;}
+
+	#changer {width: 70%;
+}
+
+
+
+.left, .left2{display: block;
+margin: auto;
+width: 30%;}
+}
+
+.back{padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+span.ts{
+	margin-top: -1.7em;
+} 
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*hiding panel*/
+	.si1{width: auto;
+		height: 130px;
+		padding: 5px 3px 0px 3px;;}
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 799px) {
+
+
+	#container {
+	width: 90%;
+	padding: 8px 8px;
+		margin: 30px;
+}
+
+.d-sm-none{display: none;}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 40%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 14%;}
+
+span.ts{
+	margin-top: -2em;
+}
+
+.left, .left2 {display: block;
+margin: auto;
+width: 40%;}
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+#content-hide {display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 800px;
+	height: 400px;
+}
+
+#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 200px;
+margin: auto;
+padding: 8px;}
+
+/*reponsive Feature*/
+
+#hidlghidlglock{display: block;}
+
+.logo{width: 23px;}
+
+H1{position: relative;
+	margin: auto;
+	font-size: 3.6em;
+line-height: 0.8em;
+align-content: center;
+text-align: center;}
+
+h3{position: relative;
+	text-align: center;
+	align-content: center;
+	kerning: 0;
+	top:-1em;
+	font-size: 20px;
+line-height: 21.5px;}
+
+#lock{
+	width: 100%;
+}
+
+/*hiding panel*/
+	.si1{width: auto;
+		height: 100px;
+		padding: 3px 3px;}
+
+
+
+}
+
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	/*reponsive Feature*/
+
+	#hidlglock{display: block;}
+
+
+.logo{width: 23px;}
+
+H1, h1#h1c{position: relative;
+	margin: auto;
+	font-size: 3.6em;
+line-height: 0.8em;
+align-content: center;
+text-align: center;}
+
+h3{position: relative;
+	text-align: center;
+	align-content: center;
+	kerning: 0;
+	top:-1em;
+	font-size: 20px;
+line-height: 24px;}
+
+#lock{
+	width: 100%;
+}
+
+		#container {
+	width: 85%;
+	padding: 8px 8px;
+		margin: 15px;
+}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 45%;
+margin: auto;
+padding: 13%;}
+
+body {
+		font-size: 13pt;
+		line-height: 17pt;
+	}
+
+	.icon {width: 20%;
+		margin: 3px;
+	}
+
+	#changer {width: 100%;
+}
+
+figure{padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;}
+
+figcaption {
+	font-family:Ubuntu-light,helveltica, sans-serif ;
+	font-size: 12.5pt;
+}
+
+.left, .left2 {display: block;
+margin: auto;
+width: 350px;
+}
+
+#containerrev{Display: block;
+	padding:  15px 15px;
+	width: 85%;
+margin: auto;}
+
+
+
+#star{display: block;
+	width: 5em}
+
+#content-desktop {display: none;}
+#content-mobile{display: block;}
+#content-hide{display: none;}
+
+  head #headnav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+.d-sm-none{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.tb{font-family: Ubuntu,sans-serif;
+	letter-spacing: 1px;
+font-size: 28px;
+font-weight: 400;
+color: white;}
+
+span.sb{display: block;
+	font-size: 15px;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+
+span.ts{
+	margin-top: -1.5em;
+}
+
+/*reponsive Feature*/
+
+.logo{width: 23px;}
+
+H1, h1#h1c{position: relative;
+	margin: auto;
+	font-size: 3.6em;
+line-height: 0.8em;
+align-content: center;
+text-align: center;}
+
+h3{position: relative;
+	text-align: center;
+	align-content: center;
+	kerning: 0;
+	top:-1em;
+	font-size: 20px;
+line-height: 24px;}
+
+#lock{
+	width: 100%;
+}
+
+#spacesmall{
+	padding-top: 1em;
+	padding-bottom: 0em;
+}
+
+/*hiding panel*/
+	.si1{width: auto;
+		height: 100px;
+		padding: 5px 3px 0px 3px;}
+
+
+#containers{position: relative;
+width: 75%;
+margin: auto;
+top: -3.4em;}
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+	#hidlg{display: block;}
+
+			#container {
+	width: 89%;
+		padding: 8px 8px;
+		margin: 20px;
+}
+
+#containerrev{
+	position: relative;
+	Display: block;
+	padding:  15px 15px;
+	width: 85%;
+margin: auto;}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 50%;
+margin: auto;
+padding: 10%;}
+
+	.icon {width: 20%;
+		margin: 5px;
+	}
+
+	#changer {width: 100%;
+}
+
+figure{padding-top: 2px;
+	padding-bottom: 2opx;
+	margin: auto;}
+
+.left, .left2{display: block;
+margin: auto;
+width: 350px;}
+
+span.ts{
+	margin-top: -1em;
+}
+
+/*hide and show content in different device*/
+#content-desktop {display: none;}
+#content-mobile{display: block;}
+#content-hide {display: none;}
+
+  #headnav {
+  head  display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+ 
+	.icon {width: 18%;}
+
+
+span.sb{display: block;
+	font-size: 13px;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+}
+
+.d-sm-none{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+br.hid{display: none;}
+
+img.logos{width: 25px;
+height: auto;
+margin-bottom: -1em;
+}
+
+
+section#bnone.textbe{margin-top: 1em;}
+
+span.ts{margin-top: 1em;}
+
+
+
+img.handy{width: 120px;
+height: auto;}
+
+
+/*reponsive Feature*/
+
+.logo{width: 23px;}
+
+
+
+H1, h1#h1c{position: relative;
+	margin: auto;
+	font-size: 2.6em;
+line-height: 0.9em;
+align-content: center;
+text-align: center;}
+
+
+#lock{
+	width: 100%;
+}
+
+#spacesmall{
+	padding-top: 0;
+	padding-bottom: 1em;
+}
+
+/*hiding panel*/
+	.si1{width: auto;
+		height: 100px;
+		padding: 5px 3px 0px 0px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+.h1s{font-size: 30px;
+}
+
+}

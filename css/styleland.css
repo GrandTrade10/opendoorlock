@@ -1,0 +1,419 @@
+body{padding: 0;
+margin: 0;
+}
+
+h2.h2b{font-size: large;}
+
+
+/* image div display side by sie and center */
+.grid-container{
+	margin: auto;
+	width: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#bnone{background-color: none;}
+
+
+.logos{
+	width: 47px;
+	height: auto;
+}
+
+img.handy{width: 170px;
+height: auto;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 1100px;
+	height: 500px;
+	background-image: url("../link/screwbigscreen.jpg");
+	background-color: #534542;
+	background:no-repeat center center cover;
+}
+
+section{text-align: center;
+padding: 20px 10px 10px 10px;}
+
+.tb{font-family: Ubuntu,sans-serif;
+	letter-spacing: 1px;
+font-size: 46px;
+font-weight: 400;
+color: white;}
+
+
+span.ts{
+	margin-top: -3em;
+}
+
+.ts{display: block;
+	letter-spacing: 1px;
+	font-family: Ubuntu,sans-serif;
+	font-size: 16px;
+color: white;
+margin: 2px;}
+
+.textbe{
+	padding-top: 1px;}
+
+.black{
+	background-color: black;
+}
+
+span.sb{display: block;
+	font-size: 24px;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+}
+
+a{text-decoration: none;
+color:#0AAAAA;}
+a:hover{color: black;}
+
+/********** Large devices only **********/
+@media (min-width: 2000px) and (max-width: 3400px) {
+/*hide and show content in different device*/
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+}
+
+#hidlg{display: none}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 1100px;
+	height: 490px;
+	background-image: url("../link/screwbigscreen.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+span.ts{
+	margin-top: -1em;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#hidlg{display: none}
+
+	#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 23%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 11%;}
+
+	#changer {width: 70%;
+}
+
+
+.left, .left2{display: block;
+margin: auto;
+width: 30%;}
+}
+
+.back{padding-top: 40px;
+	padding-bottom: 40px;
+}
+  
+span.ts{
+	margin-top: -1em;
+}
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 1100px;
+	height: 430px;
+	background-image: url("../link/screwbigscreen.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 800px) and (max-width: 991px) {
+
+
+	#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 12%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 11%;}
+
+	#changer {width: 70%;
+}
+
+
+.left, .left2{display: block;
+margin: auto;
+width: 30%;}
+}
+
+.back{padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+span.ts{
+	margin-top: -1.7em;
+} 
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 800px;
+	height: 430px;
+	background-image: url("../link/md.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 799px) {
+	#container {
+	width: 90%;
+	padding: 8px 8px;
+		margin: 30px;
+}
+
+.d-sm-none{display: none;}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 40%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 12%;}
+
+span.ts{
+	margin-top: -2em;
+}
+
+.left, .left2 {display: block;
+margin: auto;
+width: 40%;}
+
+#content-desktop {display: block;}
+#content-mobile{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 800px;
+	height: 400px;
+	background-image: url("../link/sm.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 200px;
+margin: auto;
+padding: 8px;}
+
+}
+
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+		#container {
+	width: 85%;
+	padding: 8px 8px;
+		margin: 15px;
+}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 45%;
+margin: auto;
+padding: 13%;}
+
+body {
+		font-size: 13pt;
+		line-height: 19pt;
+	}
+
+	.icon {width: 12%;
+		margin: 8px;
+	}
+
+	#changer {width: 100%;
+}
+
+figure{padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;}
+
+figcaption {
+	font-family:Ubuntu-light,helveltica, sans-serif ;
+	font-size: 12.5pt;
+}
+
+.left, .left2 {display: block;
+margin: auto;
+width: 350px;
+}
+
+#containerrev{Display: block;
+	padding:  15px 15px;
+	width: 85%;
+margin: auto;}
+
+
+
+#star{display: block;
+	width: 5em}
+
+#content-desktop {display: none;}
+#content-mobile{display: block;}
+
+  head #headnav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+.d-sm-none{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 570px;
+	height: 400px;
+	background-image: url("../link/sm.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+.tb{font-family: Ubuntu,sans-serif;
+	letter-spacing: 1px;
+font-size: 28px;
+font-weight: 400;
+color: white;}
+
+span.sb{display: block;
+	font-size: 15px;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+
+span.ts{
+	margin-top: -1.5em;
+}
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+	#hidlg{display: block;}
+
+			#container {
+	width: 89%;
+		padding: 8px 8px;
+		margin: 20px;
+}
+
+#containerrev{Display: block;
+	padding:  15px 15px;
+	width: 85%;
+margin: auto;}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 50%;
+margin: auto;
+padding: 10%;}
+
+	.icon {width: 20%;
+		margin: 5px;
+	}
+
+	#changer {width: 100%;
+}
+
+figure{padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;}
+
+.left, .left2{display: block;
+margin: auto;
+width: 350px;}
+
+span.ts{
+	margin-top: -1em;
+}
+
+/*hide and show content in different device*/
+#content-desktop {display: none;}
+#content-mobile{display: block;}
+
+  #headnav {
+  head  display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+ 
+	.icon {width: 11%;}
+
+	#changer {width: 70%;
+}
+
+span.sb{display: block;
+	font-size: 13px;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+
+.d-sm-none{display: none;}
+
+#containertop{
+	margin: auto;
+	display: block;
+	width: 350px;
+	height: 340px;
+	background-image: url("../link/xs.jpg");
+	background-color: black;
+	background:no-repeat center center cover;
+}
+
+br.hid{display: none;}
+
+img.logos{width: 25px;
+height: auto;
+margin-bottom: -1em;
+}
+
+section.line{margin-top: -0.5em;}
+
+span.ts{margin-top: 1em;}
+
+
+
+img.handy{width: 120px;
+height: auto;}
+
+}
